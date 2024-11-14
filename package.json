@@ -15,8 +15,5 @@
     "commonPath": "cypress/e2e/common/",
     "nonGlobalStepDefinitions": true,
     "step_definitions": "cypress/e2e/"
-  },
-  "dependencies": {
-    "pg": "^8.11.3"
   }
 }
