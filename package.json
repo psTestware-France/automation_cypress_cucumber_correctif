@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "commonPath": "cypress/e2e/common/",
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  }
+}
